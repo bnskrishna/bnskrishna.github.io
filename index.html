@@ -2,1193 +2,262 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sai Krishna - Personal Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+<title>Sai Krishna | Mechanical Engineer</title>
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="./assets/css/style.css">
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
+<main>
 
-  <main>
+<!-- SIDEBAR -->
 
-    <!--
-      - #SIDEBAR
-    -->
+<aside class="sidebar">
 
-    <aside class="sidebar" data-sidebar>
+<div class="sidebar-info">
 
-      <div class="sidebar-info">
+<img src="./assets/images/my-avatar.png" width="80">
 
-        <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="B Naga Sai Krishna" width="80">
-        </figure>
+<h1>B Naga Sai Krishna</h1>
 
-        <div class="info-content">
-          <h1 class="name" title="B Naga Sai Krishna">B Naga Sai Krishna</h1>
+<p>Mechanical Engineer | CFD | CAD</p>
 
-          <p class="title">Mechanical Engineer | CAD | CFD</p>
-        </div>
+</div>
 
-        <button class="info_more-btn" data-sidebar-btn>
-          <span>Show Contacts</span>
+<div class="contacts">
 
-          <ion-icon name="chevron-down"></ion-icon>
-        </button>
+<p>Email</p>
+<a href="mailto:saikrishnabandi1.1.1@gmail.com">saikrishnabandi1.1.1@gmail.com</a>
 
-      </div>
+<p>Phone</p>
+<a href="tel:+916302553876">+91 6302553876</a>
 
-      <div class="sidebar-info_more">
+<p>Location</p>
+<p>Tenali, Andhra Pradesh</p>
 
-        <div class="separator"></div>
+</div>
 
-        <ul class="contacts-list">
+</aside>
 
-          <li class="contact-item">
 
-            <div class="icon-box">
-              <ion-icon name="mail-outline"></ion-icon>
-            </div>
 
-            <div class="contact-info">
-              <p class="contact-title">Email</p>
+<!-- MAIN CONTENT -->
 
-              <a href="mailto:saikrishnabandi1.1.1@gmail.com" class="contact-link">saikrishnabandi1.1.1@gmail.com</a>
-            </div>
+<div class="main-content">
 
-          </li>
+<!-- NAVBAR -->
 
-          <li class="contact-item">
+<nav class="navbar">
 
-            <div class="icon-box">
-              <ion-icon name="phone-portrait-outline"></ion-icon>
-            </div>
+<button class="nav active" data-page="about">About</button>
+<button class="nav" data-page="resume">Resume</button>
+<button class="nav" data-page="portfolio">Portfolio</button>
+<button class="nav" data-page="contact">Contact</button>
 
-            <div class="contact-info">
-              <p class="contact-title">Phone</p>
+</nav>
 
-              <a href="tel:+916302553876" class="contact-link">+91 630 255 3876</a>
-            </div>
 
-          </li>
 
-          <li class="contact-item">
+<!-- ABOUT -->
 
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
+<section class="page active" id="about">
 
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+<h2>About Me</h2>
 
-              <time datetime="2003-06-19">June 19, 2003</time>
-            </div>
+<p>
+Mechanical Engineer specializing in CFD simulations and mechanical design.
+I perform fluid flow simulations using OpenFOAM including turbulence modeling
+and reacting flow analysis.
+</p>
 
-          </li>
+<p>
+Currently working as a Project Associate at IISc Bangalore performing
+research CFD simulations and numerical modeling.
+</p>
 
-          <li class="contact-item">
+<h3>What I Do</h3>
 
-            <div class="icon-box">
-              <ion-icon name="location-outline"></ion-icon>
-            </div>
+<ul>
 
-            <div class="contact-info">
-              <p class="contact-title">Location</p>
+<li>
+<strong>CFD Simulation</strong><br>
+OpenFOAM turbulence modeling and reacting flow simulations
+</li>
 
-              <address>Tenali, Andhra Pradesh, India</address>
-            </div>
+<li>
+<strong>Mechanical Design</strong><br>
+3D design using SolidWorks, Creo and AutoCAD
+</li>
 
-          </li>
+<li>
+<strong>Engineering Simulation</strong><br>
+CFD analysis using OpenFOAM and ANSYS
+</li>
 
-        </ul>
+<li>
+<strong>Automotive Systems</strong><br>
+Hybrid vehicles, engines and aerodynamic systems
+</li>
 
-        <div class="separator"></div>
+</ul>
 
-        <ul class="social-list">
+</section>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
 
-          <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
+<!-- RESUME -->
 
-        </ul>
+<section class="page" id="resume">
 
-      </div>
+<h2>Resume</h2>
 
-    </aside>
+<h3>Education</h3>
 
+<p>
+B.Tech Mechanical Engineering<br>
+Vignan's Lara Institute of Technology (2020–2024)<br>
+CGPA: 7.69
+</p>
 
+<p>
+Intermediate – Sri Chaitanya Junior College (2018–2020)<br>
+CGPA: 8.61
+</p>
 
+<p>
+SSC – Sri Chaitanya Techno School (2017–2018)<br>
+CGPA: 9.8
+</p>
 
+<h3>Experience</h3>
 
-    <!--
-      - #main-content
-    -->
+<p>
+Project Associate – IISc Bangalore (2025–Present)<br>
+CFD simulations using OpenFOAM including reactingFoam and turbulence models.
+</p>
 
-    <div class="main-content">
+<p>
+Graduate Engineer Trainee – Green Tech Industries (2024)<br>
+Mechanical drafting using AutoCAD and Creo.
+</p>
 
-      <!--
-        - #NAVBAR
-      -->
+<p>
+EV Internship – SkillDzire (2024)<br>
+Studied electric vehicle battery, motor and drivetrain systems.
+</p>
 
-      <nav class="navbar">
+<h3>Skills</h3>
 
-        <ul class="navbar-list">
+<ul>
 
-          <li class="navbar-item">
-            <button class="navbar-link  active" data-nav-link>About</button>
-          </li>
+<li>OpenFOAM</li>
+<li>SolidWorks</li>
+<li>AutoCAD</li>
+<li>ParaView</li>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
-          </li>
+</ul>
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Portfolio</button>
-          </li>
+</section>
 
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Blog</button>
-          </li> -->
 
-          <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li>
 
-        </ul>
+<!-- PORTFOLIO -->
 
-      </nav>
+<section class="page" id="portfolio">
 
+<h2>Portfolio</h2>
 
+<div class="filters">
 
+<button class="filter active" data-filter="all">All</button>
+<button class="filter" data-filter="design">Mechanical Design</button>
+<button class="filter" data-filter="cfd">CFD Simulations</button>
+<button class="filter" data-filter="auto">Automotive Systems</button>
 
+</div>
 
-      <!--
-        - #ABOUT
-      -->
 
-      <article class="about  active" data-page="about">
+<div class="projects">
 
-        <header>
-          <h2 class="h2 article-title">About me</h2>
-        </header>
+<div class="project auto">
+<img src="./assets/images/project-1.jpg">
+<h3>Hybrid Vehicle</h3>
+</div>
 
-        <section class="about-text">
-          <p>
-            Mechanical Engineer specializing in Computational FLuid Dynamics (CFD), Mechanical Design and Engineering simulations. I work
-            with OpenFOAM for fluid flow simulations including turbulence modelling and reacting flow analysis.
-          </p>
+<div class="project auto">
+<img src="./assets/images/project-2.png">
+<h3>Boat Engine</h3>
+</div>
 
-          <p>
-            Currently working as a Project Associate at the Indian Institute of Science (IISc), Banglore where I perform research-oriented
-            CFD simulations and numerical modeling. My interests include automotive engineering, aerospace systems combustion simulaitons and 
-            advanced engineering design.
-          </p>
-        </section>
+<div class="project auto">
+<img src="./assets/images/project-3.jpg">
+<h3>Chassis</h3>
+</div>
 
+<div class="project cfd">
+<img src="./assets/images/project-4.png">
+<h3>Cavity Simulation</h3>
+</div>
 
-        <!--
-          - service
-        -->
+<div class="project design">
+<img src="./assets/images/project-5.png">
+<h3>V6 Engine</h3>
+</div>
 
-        <section class="service">
+<div class="project design">
+<img src="./assets/images/project-6.png">
+<h3>Air Drone</h3>
+</div>
 
-          <h3 class="h3 service-title">What i'm doing</h3>
+<div class="project cfd">
+<img src="./assets/images/project-8.jpg">
+<h3>Hydrogen Combustion</h3>
+</div>
 
-          <ul class="service-list">
+</div>
 
-            <li class="service-item">
+</section>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
-              </div>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">CFD Simulation</h4>
 
-                <p class="service-item-text">
-                  Performing Computational Fluid Dynamic simulations using OpenFOAM including turbulence modelling and reacting flows.
-                </p>
-              </div>
+<!-- CONTACT -->
 
-            </li>
+<section class="page" id="contact">
 
-            <li class="service-item">
+<h2>Contact</h2>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
-              </div>
+<iframe
+src="https://www.google.com/maps?q=Tenali,Andhra%20Pradesh&output=embed"
+width="100%"
+height="300">
+</iframe>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mechanical Design</h4>
+<form>
 
-                <p class="service-item-text">
-                  3D mechanical design and assemble modeling using SolidWorks, Creo and AutoCAD.
-                </p>
-              </div>
+<input type="text" placeholder="Full name" required>
+<input type="email" placeholder="Email" required>
 
-            </li>
+<textarea placeholder="Message"></textarea>
 
-            <li class="service-item">
+<button type="submit">Send</button>
 
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
-              </div>
+</form>
 
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Engineering Simulation</h4>
+</section>
 
-                <p class="service-item-text">
-                  Engineering simulations using OpenFOAM and ANSYS for analyzing fluid flow and engineering systems.
-                </p>
-              </div>
+</div>
 
-            </li>
+</main>
 
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Automotive Systems</h4>
-
-                <p class="service-item-text">
-                  Design and development concepts for hybrid vehicles, engines and aerodynamic systems.
-                </p>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-
-        <!--
-          - testimonials
-        
-
-        <section class="testimonials">
-
-          <h3 class="h3 testimonials-title">Testimonials</h3>
-
-          <ul class="testimonials-list has-scrollbar">
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-        </section>
-        -->
-
-        <!--
-          - testimonials modal
-         
-
-        <div class="modal-container" data-modal-container>
-
-          <div class="overlay" data-overlay></div>
-
-          <section class="testimonials-modal">
-
-            <button class="modal-close-btn" data-modal-close-btn>
-              <ion-icon name="close-outline"></ion-icon>
-            </button>
-
-            <div class="modal-img-wrapper">
-              <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
-              </figure>
-
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
-            </div>
-
-            <div class="modal-content">
-
-              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
-
-              <time datetime="2021-06-14">14 June, 2021</time>
-
-              <div data-modal-text>
-                <p>
-                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                  lot of experience
-                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                  consectetur adipiscing
-                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                </p>
-              </div>
-
-            </div>
-
-          </section>
-
-        </div>
-        -->
-
-        <!--
-          - clients
-        
-
-        <section class="clients">
-
-          <h3 class="h3 clients-title">Clients</h3>
-
-          <ul class="clients-list has-scrollbar">
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-      -->
-
-
-
-
-      <!--
-        - #RESUME
-      -->
-
-      <article class="resume" data-page="resume">
-
-        <header>
-          <h2 class="h2 article-title">Resume</h2>
-        </header>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Education</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">B.Tech in Mechanical Engineering</h4>
-
-              <span>2020 — 2024</span>
-
-              <p class="timeline-text">
-                Vignan's Lara Institute of Technology and Science
-                (JNTUK)
-                CGPA: 7.69.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Intermediate</h4>
-
-              <span>2018 — 2020</span>
-
-              <p class="timeline-text">
-               Sri Chaitanya Junior College, CGPA: 8.61.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Secodary School cerificate</h4>
-
-              <span>2017 — 2018</span>
-
-              <p class="timeline-text">
-                Sri Chaitanya Techno School, CGPA: 9.8.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="timeline">
-
-          <div class="title-wrapper">
-            <div class="icon-box">
-              <ion-icon name="book-outline"></ion-icon>
-            </div>
-
-            <h3 class="h3">Experience</h3>
-          </div>
-
-          <ol class="timeline-list">
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Project Associate - IISc Banglore</h4>
-
-              <span>2025 — Present</span>
-
-              <p class="timeline-text">
-                Working on CFD simulations using OpenFOAM including turbulence modeling and reactingFoam solvers for 
-                research
-                applications.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">Graduate Engineer Trainee - Green Tech Industries</h4>
-
-              <span>2024</span>
-
-              <p class="timeline-text">
-                Supported mechanical design and drafting using AutoCAD and Creo. Mostly focused on 
-                machine
-                operating.
-              </p>
-
-            </li>
-
-            <li class="timeline-item">
-
-              <h4 class="h4 timeline-item-title">EV Internship - SkillDzire</h4>
-
-              <span>2024</span>
-
-              <p class="timeline-text">
-                Studied electric vehicle systems including battery, motor and 
-                drivetrain
-                integration.
-              </p>
-
-            </li>
-
-          </ol>
-
-        </section>
-
-        <section class="skill">
-
-          <h3 class="h3 skills-title">My skills</h3>
-
-          <ul class="skills-list content-card">
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">OpenFOAM</h5>
-                <data value="65">65%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 65%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">SolidWorks</h5>
-                <data value="90">90%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 90%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">AutoCAD</h5>
-                <data value="85">85%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 85%;"></div>
-              </div>
-
-            </li>
-
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">ParaView</h5>
-                <data value="60">60%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-       
-
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
-
-        <header>
-          <h2 class="h2 article-title">Portfolio</h2>
-        </header>
-
-        <section class="projects">
-
-          <ul class="filter-list">
-
-            <li class="filter-item">
-              <button class="active" data-filter-btn>All</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Mechanical design</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>CFD Simulations</button>
-            </li>
-
-            <li class="filter-item">
-              <button data-filter-btn>Automotive systems</button>
-            </li>
-
-          </ul>
-
-          <div class="filter-select-box">
-
-            <button class="filter-select" data-select>
-
-              <div class="select-value" data-selecct-value>Select category</div>
-
-              <div class="select-icon">
-                <ion-icon name="chevron-down"></ion-icon>
-              </div>
-
-            </button>
-
-            <ul class="select-list">
-
-              <li class="select-item">
-                <button data-select-item>All</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Mechanical design</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>CFD Simulations</button>
-              </li>
-
-              <li class="select-item">
-                <button data-select-item>Automotive systems</button>
-              </li>
-
-            </ul>
-
-          </div>
-
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="Automotive systems">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="Hybrid vehicle" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Hybrid vehicle</h3>
-
-                <p class="project-category">Automotive systems</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Automotive systems">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="Boat Engine" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Boat Engine</h3>
-
-                <p class="project-category">Automotive systems</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Automotive systems">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="Chassis" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Chassis</h3>
-
-                <p class="project-category">Automotive systems</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="CFD Simulations">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="cavity" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Cavity</h3>
-
-                <p class="project-category">CFD Simulations</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="Mechanical design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="V6 Engine" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">V6 Engine</h3>
-
-                <p class="project-category">Mechanical design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="Air Drone" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Air Drone</h3>
-
-                <p class="project-category">Mechanical design</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Summary</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="CFD Simulations">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-8.jpg" alt="hydrogen combustion" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Hydrogen combustion</h3>
-
-                <p class="project-category">CFD Simulations</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Arrival</h3>
-
-                <p class="project-category">Web development</p>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-
-
-
-
-
-      <!--
-        - #BLOG
-      
-
-      <article class="blog" data-page="blog">
-
-        <header>
-          <h2 class="h2 article-title">Blog</h2>
-        </header>
-
-        <section class="blog-posts">
-
-          <ul class="blog-posts-list">
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
-
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
-
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
-
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
-      -->
-
-
-
-      <!--
-        - #CONTACT
-      -->
-
-      <article class="contact" data-page="contact">
-
-        <header>
-          <h2 class="h2 article-title">Contact</h2>
-        </header>
-
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://maps.app.goo.gl/bcPiLXpyPhrb7q3V7?g_st=ic"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
-        <section class="contact-form">
-
-          <h3 class="h3 form-title">Contact Form</h3>
-
-          <form action="#" class="form" data-form>
-
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
-
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
-
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
-
-          </form>
-
-        </section>
-
-      </article>
-
-    </div>
-
-  </main>
-
-
-
-
-
-
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
-
-  <!--
-    - ionicon link
-  -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./assets/js/script.js"></script>
 
 </body>
-
 </html>
