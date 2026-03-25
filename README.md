@@ -29,13 +29,10 @@ Project Associate at IISc Bangalore
 ## 🖼 Design & Simulation Work
 
 ### V6 Engine Design
-![V6 Engine](Images/V6_Engine.png)
+![V6 Engine](assets/images/V6_Engine.png)
 
 ### Air Drone Design
-![Air Drone](Images/Air_Drone.png)
-
-### CFD Simulation
-![CFD Simulation](images/cfd_simulation.png)
+![Air Drone](assets/images/Air_Drone.png)
 
 ## 🎯 Goal
 To contribute to advanced CFD simulations and futuristic vehicle design.
